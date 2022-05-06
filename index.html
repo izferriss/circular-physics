@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Physics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <canvas id="main_canvas"></canvas><BR>
+        <div id ="controls">
+            <BR><span id="controls">w a s d</span><BR>
+            <span id="radios">
+                <label for="normal">Normal</label>
+                <input type="radio" id="normal" name="state" checked>
+                <label for="intense">Intense</label>
+                <input type="radio" id="intense" name="state">
+            </span><BR>
+            <canvas id="stat_canvas"></canvas><br><br>
+            <input type="checkbox" id="show_ball_stats">
+            <label for="show_ball_stats">Show Ball Stats</label><BR>
+            <span id="ball_stats_reference" hidden>M = mass, E = elasticity</span>
+        </div>
+    </div>   
+</body>
+<script src="script.js"></script>
+</html>
